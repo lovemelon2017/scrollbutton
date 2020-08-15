@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="仿滴滴右滑 控件"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+    <com.hanchao.scrollbutton.btn.ScrollHorizontalRightButton
+        android:id="@+id/scroll_bt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:sh_center_background="@drawable/bt_orange_no_radius_selector"
+        app:sh_center_text="结束行程"
+        app:sh_center_textColor="#ffffff"
+        app:sh_center_textSize="8dp"
+        app:sh_scroll_button_background="@drawable/bt_orange_no_radius_selector"
+        app:sh_scroll_button_with="50dp" />
+
+
+</RelativeLayout>

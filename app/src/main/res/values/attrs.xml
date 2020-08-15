@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScrollHorizontalButton">
+        <attr name="sh_center_textSize" format="dimension"></attr>
+        <attr name="sh_center_textColor" format="reference|color"></attr>
+        <attr name="sh_center_text" format="string"></attr>
+        <attr name="sh_center_background" format="reference|color"></attr>
+        <attr name="sh_scroll_button_with" format="dimension"></attr>
+        <attr name="sh_scroll_button_background" format="reference|color"></attr>
+        <attr name="sh_right_image_view_src" format="reference|color"></attr>
+
+    </declare-styleable>
+</resources>
