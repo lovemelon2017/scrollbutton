@@ -3,4 +3,4 @@
 
 效果图：
 
-![img](demo_bt.gif)
+![image](https://github.com/lovemelon2017/scrollbutton/blob/master/demo_bt.gif)
